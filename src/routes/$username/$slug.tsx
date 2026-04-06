@@ -91,7 +91,7 @@ function RouteComponent() {
         onClick={handleDownload}
       >
         {isPrinting ? <Spinner /> : <DownloadSimpleIcon />}
-        {isPrinting ? <Trans>Downloading...</Trans> : <Trans>Download</Trans>}
+        {isPrinting ? "正在下载..." : "下载"}
       </Button>
     </>
   );

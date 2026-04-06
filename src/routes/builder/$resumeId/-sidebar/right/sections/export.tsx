@@ -66,10 +66,7 @@ export function ExportSectionBuilder() {
         <div className="flex flex-1 flex-col gap-y-1">
           <h6 className="font-medium">JSON</h6>
           <p className="text-xs leading-normal text-muted-foreground">
-            <Trans>
-              Download a copy of your resume in JSON format. Use this file for backup or to import your resume into
-              other applications, including AI assistants.
-            </Trans>
+            以 JSON 格式下载一份你的简历副本。你可以将此文件用于备份，或导入到包括 AI 助手在内的其他应用程序中。
           </p>
         </div>
       </Button>
@@ -83,10 +80,7 @@ export function ExportSectionBuilder() {
         <div className="flex flex-1 flex-col gap-y-1">
           <h6 className="font-medium">DOCX</h6>
           <p className="text-xs leading-normal text-muted-foreground">
-            <Trans>
-              Download a copy of your resume as a Word document. Use this file to further customize your resume in
-              Microsoft Word or Google Docs.
-            </Trans>
+            以 Word 文档形式下载简历副本。使用此文件在 Microsoft Word 或 Google Docs 中进一步定制您的简历。
           </p>
         </div>
       </Button>
@@ -106,10 +100,7 @@ export function ExportSectionBuilder() {
         <div className="flex flex-1 flex-col gap-y-1">
           <h6 className="font-medium">PDF</h6>
           <p className="text-xs leading-normal text-muted-foreground">
-            <Trans>
-              Download a copy of your resume in PDF format. Use this file for printing or to easily share your resume
-              with recruiters.
-            </Trans>
+            以 PDF 格式下载一份你的简历副本。你可以用它来打印，或轻松分享给招聘人员。
           </p>
         </div>
       </Button>
